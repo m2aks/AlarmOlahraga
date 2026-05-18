@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#1e293b"> 
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:padding="16dp"
+        android:background="@drawable/bg_status_card"
+        android:orientation="vertical"
+        android:gravity="center"> <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Alarm By M2AK"
+            android:textSize="32sp"
+            android:textColor="#38bdf8"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        
+        <TextView
+            android:id="@+id/tvAlarmStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum Di Set"
+            android:textSize="18sp"
+            android:textColor="#ffffff" 
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSetAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:text="Atur Jam Nya Dulu Mas"
+        android:textColor="#ffffff"
+        android:background="@drawable/bg_button_rounded" />
+
+</LinearLayout>
